@@ -1,0 +1,870 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./fontawesome-icon/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+            screens: {
+                sm: '600px',
+                md: '768px',
+                lg: '976px',
+                xl: '1440px'
+              },
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-300">
+    <!-- NAVIGATION STARTS -->
+    <section>
+      <nav class="bg-gray-800">
+        <div class="container-lg px-4 py-1">
+            <div class="wrapper py-4 flex items-center border-b-1 justify-between">
+                <div class="logo flex">
+                    <img src="./img/logo-1.png" height="30px" width="30px" alt="logo">
+                    <ul class="hidden lg:flex items-center gap-8 pl-10">
+                        <li class="bg-gray-900 shadow-md px-3 py-1 text-white rounded capitalize">
+                            <a href="#">staff picks</a>
+                        </li>
+                        <li class="hover:bg-slate-700 hover:shadow-md px-3 py-1 text-white rounded capitalize">
+                            <a href="#">explor</a>
+                        </li>
+                        <li class="hover:bg-slate-700 hover:shadow-md px-3 py-1 text-white rounded capitalize">
+                            <a href="#">top performance</a>
+                        </li>
+                        <li class="hover:bg-slate-700 hover:shadow-md px-3 py-1 text-white rounded capitalize">
+                            <a href="#">my shophunter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-items hidden md:block">
+                  <a class="hover:bg-slate-700 hover:shadow-md px-3 py-1 text-white rounded capitalize" href="#">seguncaleb3@gmail.com</a>
+                </div>
+                <div class="bar block lg:hidden py-1 px-1 hover:bg-slate-700 rounded ">
+                   <a href="#">
+                    <span class="fa-solid fa-bars text-2xl text-white"></span>
+                   </a>
+                </div>
+            </div>
+        </div>
+        <hr class="text-slate-700">
+        <div class="container-lg px-4 py-10">
+            <div class="content">
+                <h1 class="text-white font-bold text-3xl">Staff Picks</h1>
+            </div>
+        </div>
+      </nav>
+   </section>
+ <!-- NAVIGATION ENDS -->
+ 
+ <!-- DASHBOARD START -->
+ <section>
+    <div class="container-lg mx-10 -mt-4">
+        <div class="wrapper -py-16">
+           <div class="showcase bg-gradient-to-r from-blue-800 to-purple-700 grid lg:grid-cols-3 lg:items-center lg:gap-60  rounded  px-6 py-10 ">
+                <div class="main col-span-2">
+                  <div class="content">
+                    <h4 class="pt-4 font-semibold text-2xl text-white">Welcome to Shophunter.io!</h4>
+                    <p class="py-4 leadind text-white">
+                       We've loaded this page with a hand-picked selection of shops and products. To make this page your own, check out your personal dashboard!
+                    </p>
+                 </div>
+                </div>
+                <div class="btn">
+                  <a class="capitalize px-3 py-2 bg-gray-800 font-bold text-white rounded" href="#">go to dashboard</a>
+                </div>
+           </div>
+        </div>
+    </div>
+ </section>
+ <!-- DASHBOARD ENDS -->
+
+ <!-- MAIN SECTIONS STARTS -->
+    <section class="my-6">
+        <div class="container-lg px-6">
+            <main class="grid lg:grid-cols-2 gap-3">
+                <div class="showcase bg-white px-6 py-3 ">
+                     <div class="content">
+                        <h4 class="capitalize font-semibold text-2xl pb-6">news feed</h4>
+                        <div class="items flex items-center gap-3">
+                            <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                                <img src="./img/o2.webp" class="" alt="">
+                            </div>
+                           <div class="section border-b-2 pb-3">
+                            <div class="words flex items-center m-0 p-0 justify-between">
+                                <p>Price Change</p>
+                                <small>29 minutes ago</small>
+                              </div>
+                             <a href="#" class="font-semibold">
+                                <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                    <span class="text-red-500">decreased</span><br>
+                                    the price of
+                                    Premium Large Exercise Mat</p>
+                             </a>
+                             <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                                from
+                                $259.95
+                                to
+                                $239.95
+                                <span class="text-red-500">(-20.00).</span></p>
+                           </div>
+                        </div>
+                        <div class="items flex items-center gap-3 py-3">
+                            <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                                <img src="./img/elephant.webp" class="" alt="">
+                            </div>
+                           <div class="section border-b-2 pb-3">
+                            <div class="words flex items-center m-0 p-0 justify-between">
+                                <p>Price Change</p>
+                                <small>29 minutes ago</small>
+                              </div>
+                             <a href="#" class="font-semibold">
+                                <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                    <span class="text-red-500">decreased</span><br>
+                                    the price of
+                                    Premium Large Exercise Mat</p>
+                             </a>
+                             <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                                from
+                                $259.95
+                                to
+                                $239.95
+                                <span class="text-red-500">(-20.00).</span></p>
+                           </div>
+                        </div>
+                        <div class="items flex items-center gap-3">
+                            <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                                <img src="./img/elephant.webp" class="" alt="">
+                            </div>
+                           <div class="section border-b-2 pb-3">
+                            <div class="words flex items-center m-0 p-0 justify-between">
+                                <p>Price Change</p>
+                                <small>29 minutes ago</small>
+                              </div>
+                             <a href="#" class="font-semibold">
+                                <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                    <span class="text-red-500">decreased</span><br>
+                                    the price of
+                                    Premium Large Exercise Mat</p>
+                             </a>
+                             <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                                from
+                                $259.95
+                                to
+                                $239.95
+                                <span class="text-red-500">(-20.00).</span></p>
+                           </div>
+                        </div>
+                        <div class="items flex items-center gap-3 py-3">
+                            <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                                <img src="./img/elephant.webp" class="" alt="">
+                            </div>
+                           <div class="section border-b-2 pb-3">
+                            <div class="words flex items-center m-0 p-0 justify-between">
+                                <p>Price Change</p>
+                                <small>29 minutes ago</small>
+                              </div>
+                             <a href="#" class="font-semibold">
+                                <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                    <span class="text-red-500">decreased</span><br>
+                                    the price of
+                                    Premium Large Exercise Mat</p>
+                             </a>
+                             <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                                from
+                                $259.95
+                                to
+                                $239.95
+                                <span class="text-red-500">(-20.00).</span></p>
+                           </div>
+                        </div>
+                        <div class="items flex items-center gap-3 py-3">
+                          <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                              <img src="./img/elephant.webp" class="" alt="">
+                          </div>
+                         <div class="section border-b-2 pb-3">
+                          <div class="words flex items-center m-0 p-0 justify-between">
+                              <p>Price Change</p>
+                              <small>29 minutes ago</small>
+                            </div>
+                           <a href="#" class="font-semibold">
+                              <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                  <span class="text-green-500">increased</span><br>
+                                  the price of
+                                  Premium Large Exercise Mat</p>
+                           </a>
+                           <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                              from
+                              $259.95
+                              to
+                              $239.95
+                              <span class="text-green-500">(+4.00).</span></p>
+                         </div>
+                      </div>
+                      <div class="items flex items-center gap-3 py-3">
+                        <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                            <img src="./img/elephant.webp" class="" alt="">
+                        </div>
+                       <div class="section border-b-2 pb-3">
+                        <div class="words flex items-center m-0 p-0 justify-between">
+                            <p>Price Change</p>
+                            <small>29 minutes ago</small>
+                          </div>
+                         <a href="#" class="font-semibold">
+                            <p>Best Large Exercise Mats and Yoga Mats for Your Home - Gorilla Mats
+                                <span class="text-green-500">increased</span><br>
+                                the price of
+                                Premium Large Exercise Mat</p>
+                         </a>
+                         <p>(10' x 4' x 1/4" (120" Long x 48" Wide x 6mm Thick))
+                            from
+                            $259.95
+                            to
+                            $239.95
+                            <span class="text-green-500">(+4.00).</span></p>
+                       </div>
+                    </div>
+                        <div class="items flex items-center gap-3">
+                            <div class=" py-2 px-2 bg-white border-gray-400 border rounded ">
+                                <img src="./img/flag.webp" class="" alt="">
+                            </div>
+                           <div class="section border-b-2 pb-3">
+                            <div class="words flex items-center m-0 p-0 justify-between">
+                                <p>Price Change</p>
+                                <small>29 minutes ago</small>
+                              </div>
+                             <a href="#" class="font-semibold">
+                                <p>4Patriots | We Champion Freedom and Self-Reliance
+                                    <span class="text-red-500">decreased</span>
+                                    the price of<br>
+                                    Sun Kettle® Solar Cooker
+                                    </p>
+                             </a>
+                             <p>(1 Pack)
+                                from
+                                $69.00
+                                to
+                                $54.00
+                                <span class="text-red-500">(-15.00).</span></p>
+                           </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="showcase-2" id="list">
+                    <div class="content-1">
+                        <div class="wrapper flex justify-center items-center bg-white py-3 rounded">
+                            <a class="capitalize py-2 px-8 border-gray-800 border-2 bg-gray-200 rounded font-semibold" href="#">day</a>
+                            <a class="capitalize py-2 px-8 border-gray-400 border-2 bg-gray-200 hover:border-gray-800 font-semibold" href="#">week</a>
+                            <a class="capitalize py-2 px-8 border-gray-400 border-2 bg-gray-200 hover:border-gray-800 font-semibold rounded " href="#">month</a>
+                        </div>
+                    </div>
+                         <div class="wrapper bg-white px-4 py-4 mt-3">
+                            <div class="content-2">
+                        <h4 class="capitalize font-semibold text-2xl pb-6">Filter By Tag</h4>
+                         <div class="wrapper">
+                             <div class="first">
+                                <ul class="flex gap-3">
+                                    <li class="py-2 px-2 bg-blue-400  border-blue-700 border-2 rounded-full">
+                                        <a href="#">All Staff Picked Stores</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">hair</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">kitchen</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">dog</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">cat</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">food</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">fitness</a>
+                                    </li>
+                                </ul>
+                             </div>
+                             <div class="second py-2">
+                                <ul class="flex gap-3">
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Motorcycle</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Patriot</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Shapewear</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Travel</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Yoga</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Golf</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Pet</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">kids</a>
+                                    </li>
+                                </ul>
+                             </div>
+                             <div class="third">
+                                <ul class="flex gap-3">
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Patriotic</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Christian</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">POD</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Wedding</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">baby</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">home</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">summer</a>
+                                    </li>
+                                </ul>
+                             </div>
+                             <div class="fourth py-2">
+                                <ul class="flex gap-3">
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Solution</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">men</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Apparel</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">car</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">survival</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">cause</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">beauty</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">stuffies</a>
+                                    </li>
+                                </ul>
+                             </div>
+                             <div class="fourth py-2">
+                                <ul class="flex gap-3">
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Jewelry</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Winter</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Health</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">General</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">Women</a>
+                                    </li>
+                                    <li class="py-2 px-2 border-gray-800 border text-gray-700 capitalize rounded-full">
+                                        <a href="#">tech</a>
+                                    </li>
+                                </ul>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="wrapper py-3 px-3 bg-white mt-3 w-full" id="main">
+                    <div class="content">
+                        <div class="head pb-4">
+                          <h4 class="capitalize font-semibold text-2xl">Recently Added Products</h4>
+                          <p class="capitalize text-2xl">New products from stores in this tag group.</p>
+                        </div>
+                  </div>
+                  <div class="content-1 py-4 px-3 bg-gray-200 rounded">
+                     <div class="top flex items-center justify-between">
+                          <p class="capitalize "></p>
+                          <p class="capitalize ">name</p>
+                          <p class="capitalize ">time</p>
+                     </div>
+                  </div>
+                  <div class="content-2 mt-2">
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img1.webp" width="25px" height="25px" alt="">
+                                <a href="#">LARGE 3D CIRCLE CUSTOM PICTURE PENDANT</a>
+                            </div>
+                            <div>
+                                <p>3 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img2.webp" width="25px" height="25px" alt="">
+                                <a href="#">Love Grandma For Grandma Independence Day Ph99
+                                </a>
+                            </div>
+                            <div>
+                                <p>3 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img4.webp" width="25px" height="25px" alt="">
+                                <a href="#">Custom Letters Rectangle Necklace</a>
+                            </div>
+                            <div>
+                                <p>3 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img3.webp" width="25px" height="25px" alt="">
+                                <a href="#">Customize Your Band 2pYWfyja8ZXmaF1KHntN_7mT</a>
+                            </div>
+                            <div>
+                                <p>5 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img5.webp" width="25px" height="25px" alt="">
+                                <a href="#">Grace Dainty Initial Necklace</a>
+                            </div>
+                            <div>
+                                <p>5 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img3.webp" width="25px" height="25px" alt="">
+                                <a href="#">Customize Your Band TDDhfOcW6VJdO1vEV8dDRUkR</a>
+                            </div>
+                            <div>
+                                <p>5 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img1.webp" width="25px" height="25px" alt="">
+                                <a href="#">Customize Your Band xHco6F6yU5cnLH9CT5ehQorZ</a>
+                            </div>
+                            <div>
+                                <p>5 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                     <!--  -->
+                     <div class="wrapper border-b border py-2">
+                        <div class="down flex items-center justify-between">
+                            <div class="flex items-center gap-1">
+                                <img src="./img/img5.webp" width="25px" height="25px" alt="">
+                                <a href="#">CUSTOM LETTER NECKLACE STYLE-4</a>
+                            </div>
+                            <div>
+                                <p>5 days ago</p>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+                </div>
+            </main>
+            <!-- next -->
+      
+        </div>
+    </section>
+<!-- last...... -->
+    <section class="mt-6">
+      <div class="container-lg px-6">
+        <main class="grid lg:grid-cols-2 gap-3">
+            <!--  -->
+            <div class="showcase" id="main">
+              <div class="wrapper py-3 px-3 bg-white mt-3 w-full" id="main">
+                <div class="content">
+                    <div class="head pb-4">
+                      <a href="#" class="capitalize font-semibold text-2xl">Top Moving Stores</a>
+                      <p class="capitalize text-2xl">New products from stores in this tag group.</p>
+                    </div>
+              </div>
+              <div class="content-1 py-4 px-3 bg-gray-200 rounded">
+                 <div class="top flex items-center justify-between">
+                      <p class="capitalize "></p>
+                      <p class="capitalize ">name</p>
+                      <p class="capitalize ">velocity</p>
+                 </div>
+              </div>
+              <!-- hdjsjn -->
+              <div class="content-2 mt-2">
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/1980/1771/files/Favicon_19ea6fb4-05d3-4c7c-8a15-05913d8ec834_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">GoatGuns | Miniature Die Cast Gun Models – Goat Guns</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">5,668.16%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0411/3927/3893/files/favicon_hot_yoga_dome_1_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">Hot Yoga at Home | The Hot Yoga Dome
+                            </a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">3,521.37%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADsCAYAAAB300oUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGvmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIyLTEyLTI5VDE1OjIzOjMwLTA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmZjQxMGNhZC03OWU2LTljNDktYWQzNS0yZWNhMjlhMzA0YjYiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmYmM3NTk4YS1iZjBiLWZjNDQtODZhMS1mMzM5MmFjMjFjMjUiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQ1MmZhZS04ZDhmLTkwNGYtOTRlZi03NGFhNTRlNWYyNjMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI1NDUyZmFlLThkOGYtOTA0Zi05NGVmLTc0YWE1NGU1ZjI2MyIgc3RFdnQ6d2hlbj0iMjAyMi0xMi0yOVQxNToyMzozMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzUxZTZmOS03ZDAyLWZhNDAtOWY2YS0yNGE2ZTc5YjE5NzAiIHN0RXZ0OndoZW49IjIwMjMtMDEtMDJUMTI6NDY6MzgtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZmY0MTBjYWQtNzllNi05YzQ5LWFkMzUtMmVjYTI5YTMwNGI2IiBzdEV2dDp3aGVuPSIyMDIzLTAxLTAyVDEyOjQ2OjM4LTA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MrKWGQAABvZJREFU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" width="25px" height="25px" alt="">
+                            <a href="#">Shop 10-14k solid gold, Gold Plated Fashion, & Silver Jewelry– Fran & Co Jewelry
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-green-500">2,721.37%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0510/7171/3450/files/20220216-110901_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">BloomChic | Live with Ease, Dress with Joy</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">5 days ago</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADsCAYAAAB300oUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGvmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIyLTEyLTI5VDE1OjIzOjMwLTA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmZjQxMGNhZC03OWU2LTljNDktYWQzNS0yZWNhMjlhMzA0YjYiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmYmM3NTk4YS1iZjBiLWZjNDQtODZhMS1mMzM5MmFjMjFjMjUiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQ1MmZhZS04ZDhmLTkwNGYtOTRlZi03NGFhNTRlNWYyNjMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI1NDUyZmFlLThkOGYtOTA0Zi05NGVmLTc0YWE1NGU1ZjI2MyIgc3RFdnQ6d2hlbj0iMjAyMi0xMi0yOVQxNToyMzozMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzUxZTZmOS03ZDAyLWZhNDAtOWY2YS0yNGE2ZTc5YjE5NzAiIHN0RXZ0OndoZW49IjIwMjMtMDEtMDJUMTI6NDY6MzgtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZmY0MTBjYWQtNzllNi05YzQ5LWFkMzUtMmVjYTI5YTMwNGI2IiBzdEV2dDp3aGVuPSIyMDIzLTAxLTAyVDEyOjQ2OjM4LTA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MrKWGQAABvZJREFU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" width="25px" height="25px" alt="">
+                            <a href="#">Ejvind-Kobenhavn</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-red-500">375.33%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0048/7289/6561/t/26/assets/hsfavicon.png" width="25px" height="25px" alt="">
+                            <a href="#">Next Level Goods</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-red-500">-62.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0254/2013/6536/files/guu-logo-icon-white_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">The GUU Shop - Hip Hop Jewelry - Bling Bling Chains - Gold chains -Ice
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-red-500">-69.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://luxeladyfit.com/cdn/shop/files/luxeladyfit_logo_white_b59c3146-66dc-437d-bc88-2bb615bf71ec.jpg" width="25px" height="25px" alt="">
+                            <a href="#">LUXELADYFIT | Women's Luxury Active and Leisurewear
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-red-500">-71.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                  <div class="down flex items-center justify-between">
+                      <div class="flex items-center gap-1">
+                          <img src="https://cdn.shopify.com/s/files/1/0254/2013/6536/files/guu-logo-icon-white_32x32.png" width="25px" height="25px" alt="">
+                          <a href="#">The GUU Shop - Hip Hop Jewelry - Bling Bling Chains - Gold chains -Ice
+                          </a>
+                      </div>
+                      <div>
+                        <p class="font-semibold text-red-500">-69.83%</p>
+                      </div>
+                   </div>
+               </div>
+               <!--  -->
+               <div class="wrapper border-b border py-2">
+                <div class="down flex items-center justify-between">
+                    <div class="flex items-center gap-1">
+                        <img src="https://cdn.shopify.com/s/files/1/0517/1308/1536/files/xrOGzeIQ.png" width="25px" height="25px" alt="">
+                        <a href="#">Nippies, Nipple Covers, Bra Alternatives | B-SIX
+                        </a>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-red-500">-100%</p>
+                    </div>
+                 </div>
+             </div>
+             <!--  -->
+              </div>
+            </div>
+             </div>
+            <!-- fgf -->
+            <!--  -->
+            <div class="showcase" id="main">
+              <div class="wrapper py-3 px-3 bg-white mt-3 w-full" id="main">
+                <div class="content">
+                    <div class="head pb-4">
+                      <a href="#" class="capitalize font-semibold text-2xl">Top Moving Products</a>
+                      <p class="capitalize text-1xl">Products with the largest change in revenue since the previous time period.</p>
+                    </div>
+              </div>
+              <div class="content-1 py-4 px-3 bg-gray-200 rounded">
+                 <div class="top flex items-center justify-between">
+                      <p class="capitalize "></p>
+                      <p class="capitalize ">name</p>
+                      <p class="capitalize ">velocity</p>
+                 </div>
+              </div>
+              <div class="content-2 mt-2">
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/1980/1771/files/Favicon_19ea6fb4-05d3-4c7c-8a15-05913d8ec834_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">GoatGuns | Miniature Die Cast Gun Models – Goat Guns</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">5,668.16%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0411/3927/3893/files/favicon_hot_yoga_dome_1_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">Hot Yoga at Home | The Hot Yoga Dome
+                            </a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">3,521.37%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADsCAYAAAB300oUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGvmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIyLTEyLTI5VDE1OjIzOjMwLTA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmZjQxMGNhZC03OWU2LTljNDktYWQzNS0yZWNhMjlhMzA0YjYiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmYmM3NTk4YS1iZjBiLWZjNDQtODZhMS1mMzM5MmFjMjFjMjUiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQ1MmZhZS04ZDhmLTkwNGYtOTRlZi03NGFhNTRlNWYyNjMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI1NDUyZmFlLThkOGYtOTA0Zi05NGVmLTc0YWE1NGU1ZjI2MyIgc3RFdnQ6d2hlbj0iMjAyMi0xMi0yOVQxNToyMzozMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzUxZTZmOS03ZDAyLWZhNDAtOWY2YS0yNGE2ZTc5YjE5NzAiIHN0RXZ0OndoZW49IjIwMjMtMDEtMDJUMTI6NDY6MzgtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZmY0MTBjYWQtNzllNi05YzQ5LWFkMzUtMmVjYTI5YTMwNGI2IiBzdEV2dDp3aGVuPSIyMDIzLTAxLTAyVDEyOjQ2OjM4LTA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MrKWGQAABvZJREFU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" width="25px" height="25px" alt="">
+                            <a href="#">Shop 10-14k solid gold, Gold Plated Fashion, & Silver Jewelry– Fran & Co Jewelry
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-green-500">2,721.37%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0510/7171/3450/files/20220216-110901_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">BloomChic | Live with Ease, Dress with Joy</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-green-500">5 days ago</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADsCAYAAAB300oUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGvmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIyLTEyLTI5VDE1OjIzOjMwLTA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMS0wMlQxMjo0NjozOC0wNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmZjQxMGNhZC03OWU2LTljNDktYWQzNS0yZWNhMjlhMzA0YjYiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmYmM3NTk4YS1iZjBiLWZjNDQtODZhMS1mMzM5MmFjMjFjMjUiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyNTQ1MmZhZS04ZDhmLTkwNGYtOTRlZi03NGFhNTRlNWYyNjMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjI1NDUyZmFlLThkOGYtOTA0Zi05NGVmLTc0YWE1NGU1ZjI2MyIgc3RFdnQ6d2hlbj0iMjAyMi0xMi0yOVQxNToyMzozMC0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjAgKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzUxZTZmOS03ZDAyLWZhNDAtOWY2YS0yNGE2ZTc5YjE5NzAiIHN0RXZ0OndoZW49IjIwMjMtMDEtMDJUMTI6NDY6MzgtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ZmY0MTBjYWQtNzllNi05YzQ5LWFkMzUtMmVjYTI5YTMwNGI2IiBzdEV2dDp3aGVuPSIyMDIzLTAxLTAyVDEyOjQ2OjM4LTA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+MrKWGQAABvZJREFU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" width="25px" height="25px" alt="">
+                            <a href="#">Ejvind-Kobenhavn</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-red-500">375.33%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0048/7289/6561/t/26/assets/hsfavicon.png" width="25px" height="25px" alt="">
+                            <a href="#">Next Level Goods</a>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-red-500">-62.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://cdn.shopify.com/s/files/1/0254/2013/6536/files/guu-logo-icon-white_32x32.png" width="25px" height="25px" alt="">
+                            <a href="#">The GUU Shop - Hip Hop Jewelry - Bling Bling Chains - Gold chains -Ice
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-red-500">-69.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                    <div class="down flex items-center justify-between">
+                        <div class="flex items-center gap-1">
+                            <img src="https://luxeladyfit.com/cdn/shop/files/luxeladyfit_logo_white_b59c3146-66dc-437d-bc88-2bb615bf71ec.jpg" width="25px" height="25px" alt="">
+                            <a href="#">LUXELADYFIT | Women's Luxury Active and Leisurewear
+                            </a>
+                        </div>
+                        <div>
+                          <p class="font-semibold text-red-500">-71.83%</p>
+                        </div>
+                     </div>
+                 </div>
+                 <!--  -->
+                 <div class="wrapper border-b border py-2">
+                  <div class="down flex items-center justify-between">
+                      <div class="flex items-center gap-1">
+                          <img src="https://cdn.shopify.com/s/files/1/0254/2013/6536/files/guu-logo-icon-white_32x32.png" width="25px" height="25px" alt="">
+                          <a href="#">The GUU Shop - Hip Hop Jewelry - Bling Bling Chains - Gold chains -Ice
+                          </a>
+                      </div>
+                      <div>
+                        <p class="font-semibold text-red-500">-69.83%</p>
+                      </div>
+                   </div>
+               </div>
+               <!--  -->
+               <div class="wrapper border-b border py-2">
+                <div class="down flex items-center justify-between">
+                    <div class="flex items-center gap-1">
+                        <img src="https://cdn.shopify.com/s/files/1/0517/1308/1536/files/xrOGzeIQ.png" width="25px" height="25px" alt="">
+                        <a href="#">Nippies, Nipple Covers, Bra Alternatives | B-SIX
+                        </a>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-red-500">-100%</p>
+                    </div>
+                 </div>
+             </div>
+             <!--  -->
+              </div>
+            </div>
+             </div>
+            <!--  -->
+
+        </main>
+      </div>
+    </section>
+
+
+    <section class="my-4">
+      <div class="container-lg px-4">
+        <main class="grid lg:grid-cols-2">
+          <div class="showcase">
+            <div class="wrapper py-3 px-3 bg-white mt-3 w-full" id="main">
+              <div class="content">
+                  <div class="head pb-4">
+                    <a href="#" class="capitalize font-semibold text-2xl">Top Moving Products</a>
+                    <p class="capitalize text-1xl">Products with the largest change in revenue since the previous time period.</p>
+                  </div>
+            </div>
+            <div class="content-1 py-4 px-3 rounded">
+               <div class="top flex items-center justify-center">
+                    <p class="text-center text-2xl">Revenue share is not calculated for the day timeframe.</p>
+               </div>
+            </div>
+
+          </div>
+           </div>
+           <div></div>
+        </main>
+      </div>
+    </section>
+ <!-- MAIN SECTIONS ENDS -->
+ <footer class="my-16">
+    <div class="container-lg px-8">
+      <div class="wrapper md:flex md:justify-between md:items-center justify-center text-center">
+         <div class="content">
+            <p class="text-2xl font-semobold text-gray-500">© 2022 BackSlash LLC. All rights reserved.</p>
+         </div>
+         <div class="mt-2">
+          <a href="#" class="text-gray-500 text-2xl hover:text-gray-800"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"class="text-gray-500 text-2xl hover:text-gray-800 px-3"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="text-gray-500 text-2xl hover:text-gray-800"><i class="fa-brands fa-discord"></i></a>
+         </div>
+      </div>
+    </div>
+ </footer>
+<script src="./js/main.js"></script>
+<script src="./fontawesome-icon/js/all.min.js"></script>
+</body>
+</html>

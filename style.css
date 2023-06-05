@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    #main {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    #main::-webkit-scrollbar {
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: scroll;
+    }
+
+    body::-webkit-scrollbar {
+        overflow-x: hidden;
+    }
+
+    #list {
+        width: 100%;
+    }
+}
+
